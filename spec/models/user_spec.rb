@@ -60,6 +60,7 @@ describe User do
       user_with_same_email.email = @user.email.upcase
       user_with_same_email.save
     end
+  end  
 
   describe "when password is not present" do
     before do
